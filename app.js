@@ -1,10 +1,10 @@
 const express = require('express')
-const port = 3000
+const port = 80
 
 const app = express()
 
 app.get('/', (req, res) => {
-    res.send("Strona w budowie")
+    res.send("Strona SOFTaff jest w budowie, bo Dziubisiowa paczy")
 })
 
 app.listen(port)
